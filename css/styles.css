@@ -515,67 +515,61 @@ body {
   }
 
   /* task 5  */
-  
-  .email-form {
-    width: 453px;
-    height: 80px;
-    top: 100px;
-    left: 828px;
-    gap: 0px;
-    border-radius: 4px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    display: flex;
-    flex-direction:row;
-  }
-
-  .email-label {
-    text-align:justify;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
+  .forms-title {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    margin-left: 80px;
-     margin-bottom: 16px; 
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+
+  .email-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .email-label {
+    
   }
 
   .email-input {
-    color: #FFFFFF;
-    font-size: 12px;
     width: 264px;
     height: 40px;
-    top: 140px;
-    left: 828;
-    padding: 14px;
-    background-color: #2E2F42;
-    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    gap: 16px;
+    color: #ffffff; 
+
   }
 
   .email-input::placeholder {
     color: #FFFFFF;
     font-weight: 400;
+    border: 1px solid #ffffff;
+
   }
 
   .sub-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4D5AE5;
-    display: block;
-    min-width: 165px;
-    height: 40px;
-    border: none; 
-    border-radius: 4px;
     cursor: pointer;
-    margin: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
   }
 
   .sub-button:hover {
@@ -586,5 +580,5 @@ body {
   }
 
   .media-icons-button {
-    
+    margin-left: 16px;
   }
