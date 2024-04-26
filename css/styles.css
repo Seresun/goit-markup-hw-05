@@ -645,7 +645,11 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-button:hover:focus {
+.modal-icon-button:hover {
+  fill: #ffffff;
+}
+
+.modal-icon-button:focus {
   fill: #ffffff;
 }
 
@@ -672,6 +676,10 @@ a {
   margin-bottom: 4px;
 }
 
+.user-icon-filler {
+  position: relative;
+}
+
 .username-input {
   width: 100%;
   height: 40px;
@@ -693,6 +701,10 @@ a {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon-user:focus {
+  fill: #4d5ae5;
 }
 
 .text-comment {
@@ -719,20 +731,17 @@ a {
   margin-bottom: 24px;
 }
 
-.checkbox-input.visually-hidden {
-}
-
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99; 
+  color: #8e8f99;
 }
 
-.privacy-link input[type="checkbox"]:checked  {
+.privacy-link input[type="checkbox"]:checked {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD; 
+  fill: #f4f4fd;
 }
 
 .privacy-link {
@@ -740,15 +749,17 @@ a {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
-  justify-content: center; 
-  fill: transparent; 
+  justify-content: center;
+  fill: transparent;
 }
 
 .submit-btn {
-  display: block; 
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -758,7 +769,7 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
