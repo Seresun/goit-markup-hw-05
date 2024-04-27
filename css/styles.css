@@ -636,22 +636,17 @@ a {
 .modal-button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-button:focus {
   background-color: #404bbf;
+  fill: #ffffff;
+  border: none; 
 }
 
 .modal-icon-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-icon-button:hover {
-  fill: #ffffff;
-}
-
-.modal-icon-button:focus {
-  fill: #ffffff;
 }
 
 .modal-title-p {
@@ -679,6 +674,7 @@ a {
 
 .user-icon-filler {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .username-input {
@@ -694,6 +690,7 @@ a {
 
 .username-input:focus {
   border-color: #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .modal-icon-user {
@@ -702,10 +699,6 @@ a {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-icon-user:focus {
-  fill: #4d5ae5;
 }
 
 .text-comment {
